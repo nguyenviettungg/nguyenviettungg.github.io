@@ -1,0 +1,287 @@
+*{margin: 0;padding: 0;}
+ .main_menu ul {
+ 	font-size: 17px;
+ 	font-family: 'Hepta Slab', serif;
+ 	padding-right: 12px;
+ }
+ .logoaboutme{
+	text-transform: capitalize;
+	font-size: 40px;
+	font-style: italic;
+	font-family:  'Montserrat', sans-serif;
+	font-weight: bold;
+	
+} 
+.navbar-light .navbar-nav .nav-link.mauchu {
+	color: #ab2121;
+	font-size: 19px;
+	padding-right: 30px;
+	transition: 0.4s;
+}
+.navbar-light .navbar-nav .nav-link.mauchu:hover {
+	color: mediumseagreen;
+	font-size: 23px;
+	padding-right: 40px;
+}
+
+.maunen{
+	background-color: grey;
+	height: 70px;
+
+	
+}
+.thongtinheading {
+	background-color: #ff5050;
+	width: 100%;
+	height: 35px;
+	font-family: 'Hepta Slab', serif;
+}
+.thongtinheading .td {
+	font-family: 'Hepta Slab', serif;
+	color: #3e5dce;
+	font-size: 13px;
+	padding-top: 7px;
+}
+.thongtinheading .phone {
+	font-size: 13px;
+	padding-top: 7px;
+}
+.thongtinheading .mail {
+	font-size: 13px;
+	padding-top: 7px;
+}
+.thongtinheading .iconicon {
+	padding-top: 7px;
+}
+.banner{
+	width: 100%;height: 350px;
+	background-color: #f5f0ed;
+}
+.banner .tdbanner {
+	padding-top: 10%;
+	padding-left: 10%;
+}
+.banner img {
+	height: 350px;
+	width: 100%;
+}
+ .banner p {
+ 	font-size: 12px;
+ 	font-family: 'Hepta Slab', serif;
+ }
+ .banner h1 {
+ 	color: #a51212;
+ 	font-size: 50px;
+ 	font-family: 'Hepta Slab', serif;
+ 	font-weight: 400;
+ }
+ .khoitextmain img {
+ 	height: 100%;
+ }
+ .khoitextmain .anh  {
+ 	background-image: url('images/anhnenpage3.png');
+	background-position: left top;
+ }
+
+ .khoitextmain .anh  {
+ 	padding-left: 0px ;
+ 	padding-right: 0px;
+ }
+ .khoitextmain .textpage h1 {
+ 	font-family: 'Hepta Slab', serif;
+ 	font-weight: 400;
+ }
+ .khoitextmain .textpage p {
+ 	font-family: 'Hepta Slab', serif;
+ 	font-size: 15px;
+ }
+ ._3hinhnho {
+ 	background-color: #f5f0ed;
+ }
+ .giopthieu h1 {
+ 	font-family: 'Hepta Slab', serif;
+ }
+.gioithieu {
+	background-image: url('images/anhnenpage3.png') 
+}
+.anhgioithieu {
+	position: relative;
+}
+
+.nendo {
+	position: absolute;
+	width: 80%;
+	height: 90%;
+	top: 5%;
+	left: 10%;
+	background-color: #bf13139e;
+	z-index: 1;
+	opacity: 0;
+	transition: 0.4s;
+}
+.nendo._2 {
+	background-color: #65c5e6ad;
+}
+.nendo._3 {
+	background-color: #e0e039c2;
+}
+.anhgioithieu:hover .nendo{
+	opacity: 1;
+}
+.nendo h4{
+	padding-top: 50%;
+	color: white;
+	font-family: 'Hepta Slab', serif;
+	font-size: 35px;
+	font-weight: 800;
+
+ 
+}
+.nendo h5{
+	font-family: 'Hepta Slab', serif;
+	font-size: 10px;
+	color: #f7f0f0;
+}
+.nendo i {
+	color: white;
+	font-size: 20px;
+	padding-top: 30px;
+}
+.nendo i:hover {
+	color: black;
+}
+.tdto{
+	position: relative;
+	padding-bottom: 40px;
+} 
+.tdto::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 3px;
+	background-color: black;
+	display: block;
+}
+.tieudenoidung h1 {
+	font-family: 'Hepta Slab', serif;
+	font-size: 40px;
+}
+
+.motkhoicard {
+	position: relative;
+	/* overflow: hidden; */
+}
+.motkhoicard .texttop {
+	position: absolute;
+	width: 60%;
+	height: 8%;
+	top: 0px;
+	left: 0px;
+	color: white;
+	background-color: black;
+	font-family: 'Hepta Slab', serif;
+	padding-top: 9px;
+	transition: 0.4s;
+}
+.motkhoicard:hover .texttop {
+	background-color: red;
+}
+.motkhoicard .textgiua {
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 10%;
+	font-family: 'Hepta Slab', serif;
+	font-size: 20px;
+	font-weight: 800;
+	padding-top: 10px ;
+	padding-left: 15px;
+	transition: 0.4s;
+
+}
+.motkhoicard:hover .textgiua {
+	background-color: red;
+}
+.motkhoicard .textbottom {
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 10%;
+	font-family: 'Hepta Slab', serif;
+	font-size: 20px;
+	font-weight: 800;
+	padding-top: 10px ;
+	padding-left: 15px;
+	text-transform: capitalize;
+	
+}
+.motkhoicard:hover .textbottom {
+	color: red;
+
+}
+ .upup i {
+ 	font-size: 40px;
+ 	padding-top: 20px;
+ }
+ .footer .btn-danger {
+ 	margin-top: 20px;
+ 	border-radius: 20px;
+ 	padding: 13px 41px;
+ 	background-color: black;
+ 	color: white;
+ 	font-family: 'Hepta Slab', serif;
+ 	font-weight: bold;
+ }
+ .footer .newsletter p {
+ 	font-family: 'Hepta Slab', serif;
+ 	font-size: 13px;
+ 	color: white;
+ 	padding-top: 30px;
+ }
+ .footer .contactus p {
+ 	color: white;
+ 	margin-top: 40px;
+
+ }
+ .footer .contactus i {
+ 	color: red;
+ 	padding-right: 10px;
+ }
+ .footer .tags .btn-secondary {
+ 	border-radius: 50px;
+ 	font-family: 'Hepta Slab', serif;
+ 	padding: 10px 15px;
+ 	background-color: red;
+ 	color: black;
+ 	font-weight: 800;
+ 	margin: 14px 5px;
+ }
+ .footer .tags h2 {
+ 	color: white;
+ 	text-transform: capitalize;
+ 	font-family: 'Hepta Slab', serif;
+ 	font-size: 30px;
+ }
+ .footer .logoaboutme {
+ 	color: white;
+ }
+ .footer .logotext p {
+ 	font-family: 'Hepta Slab', serif;
+ 	color: white;
+ 	font-size: 15px;
+ 	padding-top: 20px;
+ 	font-style: italic;
+ }
+.footer .nenxanh {
+	background-color: #000000b0;
+	width: 100%;
+	height: 350px;
+}
+.footer {
+ 	width: 100%;
+ 	height: 350px;
+ 	background-image: url('footer.jpg');
+ 	background-color: grey;
+ }
